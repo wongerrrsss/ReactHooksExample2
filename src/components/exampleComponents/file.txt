@@ -1,0 +1,28 @@
+import React, { Component } from 'react';
+
+// export default class Toggle extends Component {
+//     constructor() {
+//         super()
+
+//         this.state = {
+//             visibility: "visible"
+//         }
+
+//         this.toggleVisibility = this.toggleVisibility.bind(this)
+//     }
+
+//     toggleVisibility() {
+//         this.setState({ visibility: this.state.visibility === "visible" ? "hidden" : "visible" })
+//     }
+
+//     render() {
+//         return (
+//             <div className="toggle-component">
+//                 <h2 style={{ visibility: this.state.visibility }}>HIDE ME!</h2>
+//                 <div>
+//                     <button onClick={this.toggleVisibility}>{this.state.visibility === "visible" ? "Hide" : "Show"}</button>
+//                 </div>
+//             </div>
+//         )
+//     }
+// }
